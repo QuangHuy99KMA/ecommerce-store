@@ -20,6 +20,11 @@ function Navbar(props) {
     navigate("/ecommerce-store/carts");
   };
 
+  const handleProductClick = () => {
+    navigate("/ecommerce-store/products");
+    console.log("abc");
+  };
+
   return (
     <section className="container  md:mx-auto">
       <div className="flex justify-between items-center h-24 px-4">
@@ -31,7 +36,7 @@ function Navbar(props) {
             <a href="/ecommerce-store">Home</a>
           </li>
           <li className="font-bold p-4 text-xl">
-            <a href="/ecommerce-store/products">Product</a>
+            <div onClick={handleProductClick}>Product</div>
           </li>
           <li className="font-bold p-4 cursor-pointer">
             <AiOutlineShopping size={22} onClick={handleCartClick} />
@@ -56,7 +61,7 @@ function Navbar(props) {
               <a href="/ecommerce-store/">Home</a>
             </li>
             <li className="p-4">
-              <a href="/ecommerce-store/products">Product</a>
+              <div onClick={handleProductClick}>Product</div>
             </li>
             <li className="p-4">
               <AiOutlineShopping size={22} onClick={handleCartClick} />
