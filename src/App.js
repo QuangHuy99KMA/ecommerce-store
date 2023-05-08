@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/products/*' element={<ProductFeature />} />
-        <Route path='/carts' element={<CartFeature />} />
+        <Route path='/ecommerce-store' element={<HomePage />} />
+        <Route path='/ecommerce-store/products/*' element={<ProductFeature />} />
+        <Route path='/ecommerce-store/carts' element={<CartFeature />} />
 
         <Route path='*' element={<NotFound />} />
       </Routes>

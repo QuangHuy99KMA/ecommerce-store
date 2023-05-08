@@ -24,14 +24,14 @@ function Navbar(props) {
     <section className="container  md:mx-auto">
       <div className="flex justify-between items-center h-24 px-4">
         <div className="text-3xl font-bold">
-          <a href="/">Quang Huy</a>
+          <a href="/ecommerce-store">Quang Huy</a>
         </div>
         <ul className="hidden md:flex">
           <li className="font-bold p-4 text-xl">
-            <a href="/">Home</a>
+            <a href="/ecommerce-store">Home</a>
           </li>
           <li className="font-bold p-4 text-xl">
-            <a href="/products">Product</a>
+            <a href="/ecommerce-store/products">Product</a>
           </li>
           <li className="font-bold p-4 cursor-pointer">
             <AiOutlineShopping size={22} onClick={handleCartClick} />
@@ -53,10 +53,10 @@ function Navbar(props) {
         >
           <ul className="mt-20 w-full shadow-2xl bg-white rounded-2xl	">
             <li className="p-4">
-              <a href="/">Home</a>
+              <a href="/ecommerce-store/">Home</a>
             </li>
             <li className="p-4">
-              <a href="/products">Product</a>
+              <a href="/ecommerce-store/products">Product</a>
             </li>
             <li className="p-4">
               <AiOutlineShopping size={22} onClick={handleCartClick} />
