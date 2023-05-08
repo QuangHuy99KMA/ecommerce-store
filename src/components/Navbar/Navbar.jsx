@@ -35,7 +35,7 @@ function Navbar(props) {
           <li className="font-bold p-4 text-xl">
             <a href="/ecommerce-store">Home</a>
           </li>
-          <li className="font-bold p-4 text-xl">
+          <li className="font-bold p-4 text-xl cursor-pointer">
             <div onClick={handleProductClick}>Product</div>
           </li>
           <li className="font-bold p-4 cursor-pointer">
