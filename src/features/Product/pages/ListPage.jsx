@@ -1,3 +1,4 @@
+import queryString from "query-string";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import productApi from "../../../api/productApi";
@@ -5,7 +6,6 @@ import Loading from "../components/Loading/Loading";
 import Pagination from "../components/Pagination/Pagination";
 import ProductFilters from "../components/ProductFilters/ProductFilters";
 import ProductList from "../components/ProductList/ProductList";
-import queryString from "query-string";
 
 ListPage.propTypes = {};
 

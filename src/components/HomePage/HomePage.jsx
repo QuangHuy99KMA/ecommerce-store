@@ -5,8 +5,6 @@ import Contact from "../Contact/Contact";
 import SliderAuto from "../SliderAuto/SliderAuto";
 import Describe from "../Describe/Describe";
 
-HomePage.propTypes = {};
-
 function HomePage(props) {
   return (
     <div>

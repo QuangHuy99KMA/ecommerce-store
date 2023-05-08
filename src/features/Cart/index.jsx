@@ -1,10 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { cartItemsCountSelector, cartTotalSelector } from "./selectors";
-import initialState from "../Cart/cartSlice";
-
-CartFeature.propTypes = {};
 
 function CartFeature(props) {
   const cartItemsCount = useSelector(cartItemsCountSelector);
