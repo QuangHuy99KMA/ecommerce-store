@@ -19,7 +19,7 @@ function Banner(props) {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
-          <a href="/products" className="w-fit">
+          <a href="/ecommerce-store/products" className="w-fit">
             <button className="max-w-[200px] text-white font-bold text-lg	 bg-gradient-to-b from-gray-700 via-gray-900 to-black hover:from-gray-700 hover:to-yellow-700 px-4 py-2 rounded-md">
               Get Started
             </button>

@@ -17,7 +17,7 @@ function Navbar(props) {
   };
 
   const handleCartClick = () => {
-    navigate("/carts");
+    navigate("/ecommerce-store/carts");
   };
 
   return (
